@@ -165,4 +165,4 @@ Esta fase visa restaurar os serviços e operações que foram impactados por um 
 ---
 
 ## Conclusão
-A aplicação do framework NIST CSF na SecurTech Solutions demonstra um entendimento claro e
+A aplicação do framework NIST CSF na SecurTech Solutions demonstra um entendimento claro e prático de como a GRC atua na proteção de ativos críticos. Este projeto não é apenas um guia, mas uma prova de que a segurança cibernética deve ser uma função estratégica e contínua, integrada a todos os aspectos de um negócio. A documentação completa serve como base para auditorias futuras e para a construção de uma cultura de segurança robusta.
