@@ -68,7 +68,7 @@ Nesta fase, o objetivo é desenvolver uma compreensão dos riscos de segurança 
 | Equipamentos de Funcionários | Equipe de TI               | Normal           | Phishing, Malware, Acesso Não Autorizado     |
 
 
-<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/c9fb4831-63af-4087-bd07-8aef43b4c4ef" />
+<img width="800" height="1536" alt="image" src="https://github.com/user-attachments/assets/c9fb4831-63af-4087-bd07-8aef43b4c4ef" />
 
 
 ### Fase 2: Proteger (Protect)
