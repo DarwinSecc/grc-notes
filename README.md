@@ -91,44 +91,7 @@ Esta fase estabelece as atividades necessárias para identificar a ocorrência d
 ### Fase 4: Responder (Respond)
 Nesta fase, o foco é em como agir rapidamente após um incidente de segurança.
 
-**Fluxograma de Resposta a Incidentes (IRP)**
-+---------------------------------+
-|   ALERTA DE SEGURANÇA           |
-|  (Gerado por SIEM, IDS, etc.)   |
-+---------------------------------+
-|
-↓
-+---------------------------------+
-|   1. TRIAGEM E ANÁLISE INICIAL  |
-|   (Confirmar o incidente)       |
-+---------------------------------+
-| (Incidente Confirmado?)
-+-----(NÃO)----> [FECHAR ALERTA]
-|
-↓ (SIM)
-+---------------------------------+
-|      2. CONTENÇÃO DO INCIDENTE  |
-|      (Isolar sistema afetado)   |
-+---------------------------------+
-|
-↓
-+---------------------------------+
-|      3. ERRADICAÇÃO E ANÁLISE   |
-|      (Remover a causa raiz)     |
-+---------------------------------+
-|
-↓
-+---------------------------------+
-|      4. RECUPERAÇÃO DO SISTEMA  |
-|      (Restaurar a partir de backup, monitorar) |
-+---------------------------------+
-|
-↓
-+---------------------------------+
-|   5. PÓS-INCIDENTE              |
-|   (Lições aprendidas, relatório) |
-+---------------------------------+
-
+<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/ce527795-129c-4d05-b84b-946ca37e3d59" />
 
 ### Fase 5: Recuperar (Recover)
 Esta fase visa restaurar os serviços e operações que foram impactados por um incidente de segurança cibernética.
