@@ -91,7 +91,7 @@ Esta fase estabelece as atividades necessárias para identificar a ocorrência d
 ### Fase 4: Responder (Respond)
 Nesta fase, o foco é em como agir rapidamente após um incidente de segurança.
 
-<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/ce527795-129c-4d05-b84b-946ca37e3d59" />
+<img width="800" height="1320" alt="image" src="https://github.com/user-attachments/assets/ce527795-129c-4d05-b84b-946ca37e3d59" />
 
 ### Fase 5: Recuperar (Recover)
 Esta fase visa restaurar os serviços e operações que foram impactados por um incidente de segurança cibernética.
