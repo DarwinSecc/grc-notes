@@ -70,33 +70,6 @@ Nesta fase, o objetivo é desenvolver uma compreensão dos riscos de segurança 
 
 <img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/c9fb4831-63af-4087-bd07-8aef43b4c4ef" />
 
-**Fluxo de Dados da SecurTech**
-      +-------------------+
-      | Clientes          |
-      | (PMEs)            |
-      +---------+---------+
-                |  (Dados de Projeto)
-                ↓
-+-------------------+----------------------+
-| Plataforma SaaS (AWS)                      |
-| (Contêineres Docker, Kubernetes)         |
-|                                          |
-| - Armazena Dados de Clientes              |
-| - Acessa Código-fonte e Aplicações       |
-+---------+---------+---------+------------+
-|         |         |
-(Acesso)↓  (Backups)↓  (Logs)↓
-+---------+---------+---------+------------+
-| Rede Interna da SecurTech                  |
-| (Equipe de Desenvolvimento, TI, Suporte)   |
-+-------------------+----------------------+
-|
-↓
-+-------------------+
-| GitHub/GitLab     |
-| (Código-fonte)    |
-+-------------------+
-
 
 ### Fase 2: Proteger (Protect)
 Com base nos riscos identificados, esta fase foca na implementação de salvaguardas para garantir a entrega de serviços críticos de forma contínua.
