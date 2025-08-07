@@ -1,77 +1,148 @@
 # Projeto: Implementação de um Framework de Gerenciamento de Riscos Cibernéticos
 
-## Visão Geral do Projeto
-Este projeto documenta a aplicação prática de um framework de **Governança, Riscos e Conformidade (GRC)** para uma empresa fictícia, com o objetivo de identificar, avaliar e mitigar riscos cibernéticos. O foco é demonstrar uma abordagem estruturada e profissional para a gestão da segurança da informação, alinhando as estratégias de segurança aos objetivos de negócio.
+## 📌 Visão Geral
 
-Para este exercício, utilizaremos o **NIST Cybersecurity Framework (CSF)** como metodologia principal, devido à sua flexibilidade e ampla aceitação no mercado.
+Este projeto documenta a aplicação prática de um framework de **Governança, Riscos e Conformidade (GRC)** em um ambiente corporativo fictício. O objetivo é demonstrar uma abordagem estruturada e alinhada às boas práticas de mercado para identificar, avaliar e mitigar riscos cibernéticos, garantindo que a **segurança da informação** esteja em conformidade com os **objetivos estratégicos da organização**.
 
----
-
-## Cenário da Empresa Fictícia
-**Nome:** SecurTech Solutions
-**Atividade:** Startup de Software-as-a-Service (SaaS) que oferece uma plataforma de gerenciamento de projetos para pequenas e médias empresas (PMEs).
-**Tecnologia:** Infraestrutura hospedada na nuvem (AWS), utilizando containers Docker e Kubernetes. O sistema armazena dados de clientes, como informações de contato, dados de projetos e arquivos de negócios.
-**Equipe:** 50 funcionários, incluindo equipes de desenvolvimento, vendas, suporte e liderança.
-
-**Ativos Críticos:**
-* Dados de Clientes (Confidencialidade e Disponibilidade são primordiais)
-* Código-fonte da Plataforma (Integridade e Confidencialidade)
-* Infraestrutura de Nuvem (Disponibilidade e Confidencialidade)
-* Rede Interna da SecurTech (Integridade e Disponibilidade)
+A metodologia principal adotada será o **NIST Cybersecurity Framework (CSF)**, amplamente reconhecido pela sua flexibilidade, clareza e eficácia.
 
 ---
 
-## Metodologia de Análise de Riscos (Baseada no NIST CSF)
-O projeto será dividido nas cinco funções centrais do NIST CSF: **Identificar, Proteger, Detectar, Responder e Recuperar**. Cada função representa um ciclo de vida da segurança cibernética, e sua documentação demonstra um plano de segurança holístico.
+## 🏢 Cenário da Empresa Fictícia
 
-### Fase 1: Identificar (Identify)
-Nesta fase, o objetivo é desenvolver uma compreensão dos riscos de segurança cibernética para gerenciar os riscos para sistemas, ativos, dados e recursos da empresa.
+- **Nome:** SecurTech Solutions  
+- **Setor:** Tecnologia / SaaS  
+- **Atividade:** Plataforma de gerenciamento de projetos para PMEs  
+- **Infraestrutura:** Nuvem AWS com uso de Docker e Kubernetes  
+- **Equipe:** ~50 colaboradores (Dev, Suporte, Comercial, Gestão)  
 
-**Tabela de Inventário de Ativos Críticos e Ameaças**
+### 🔐 Ativos Críticos
 
-| Ativo Crítico         | Proprietário                 | Classificação    | Ameaças                                   |
-|-----------------------|------------------------------|------------------|-------------------------------------------|
-| Dados de Clientes     | Equipe de Cibersegurança     | Confidencial     | Vazamento de Dados, Ransomware, DDoS, Phishing |
-| Código-fonte da Plataforma | Equipe de Desenvolvimento | Crítico          | Roubo de Propriedade Intelectual, Indisponibilidade |
-| Infraestrutura de Nuvem | Equipe de Infra/DevOps       | Crítico          | Invasão, DDoS, Má Configuração             |
-| Equipamentos de Funcionários | Equipe de TI               | Normal           | Phishing, Malware, Acesso Não Autorizado     |
+| Ativo                         | Proprietário             | Classificação  | Riscos Associados                                       |
+|------------------------------|--------------------------|----------------|----------------------------------------------------------|
+| Dados de Clientes            | Equipe de Segurança      | Confidencial   | Vazamento, Ransomware, Phishing, DDoS                    |
+| Código-fonte da Plataforma   | Equipe de Desenvolvimento| Crítico        | Furto de IP, Indisponibilidade, Modificação não autorizada |
+| Infraestrutura em Nuvem      | DevOps                   | Crítico        | Acesso indevido, Misconfiguration, DDoS                  |
+| Dispositivos dos Colaboradores | Equipe de TI           | Sensível       | Malware, Engenharia Social, Acesso Indevido              |
 
+---
 
-<img width="800" height="1200" alt="image" src="https://github.com/user-attachments/assets/c9fb4831-63af-4087-bd07-8aef43b4c4ef" />
+## 🧭 Metodologia (Baseada no NIST CSF)
 
+O projeto é dividido nas cinco funções centrais do **NIST CSF**:
 
-### Fase 2: Proteger (Protect)
-Com base nos riscos identificados, esta fase foca na implementação de salvaguardas para garantir a entrega de serviços críticos de forma contínua.
+### 1. 🕵️‍♂️ IDENTIFICAR
 
-**Controles de Proteção e Políticas de Segurança:**
-* **Controle de Acesso:** Implementação de **Autenticação de Múltiplos Fatores (MFA)** para acesso a sistemas críticos e VPN. Uso do **Princípio do Mínimo Privilégio** para todos os funcionários.
-* **Conscientização e Treinamento:** Programa obrigatório de treinamento em segurança para todos os funcionários, com simulações de **phishing** trimestrais.
-* **Proteção de Dados:** Criptografia de dados **em trânsito** e **em repouso**. Políticas de backup e recuperação de dados.
-* **Manutenção:** Gerenciamento de vulnerabilidades com escaneamento quinzenal. Aplicação de patches em sistemas operacionais e aplicações.
+Objetivo: Desenvolver entendimento organizacional para gerenciar riscos de segurança cibernética.
 
-### Fase 3: Detectar (Detect)
-Esta fase estabelece as atividades necessárias para identificar a ocorrência de um evento de segurança cibernética.
+**Ações Realizadas:**
+- Inventário de ativos e sistemas críticos;
+- Classificação de informações;
+- Identificação de ameaças internas e externas;
+- Avaliação de riscos e impacto nos negócios;
+- Estabelecimento de perfil de risco atual e desejado;
+- Mapeamento de stakeholders e responsáveis.
+
+> 📌 Resultado: Clareza sobre o que precisa ser protegido e por quem.
+
+---
+
+### 2. 🔐 PROTEGER
+
+Objetivo: Desenvolver e implementar salvaguardas apropriadas para garantir entrega de serviços essenciais.
+
+**Controles e Políticas Adotadas:**
+
+- **Controle de Acesso:**
+  - Autenticação Multifator (MFA)
+  - VPN corporativa com logs centralizados
+  - Princípio do menor privilégio
+
+- **Conscientização e Treinamento:**
+  - Treinamentos obrigatórios com simulações trimestrais de phishing
+  - Políticas claras de uso aceitável
+
+- **Proteção de Dados:**
+  - Criptografia AES-256 para dados em repouso
+  - TLS 1.3 para dados em trânsito
+  - Política de backup incremental e completo
+
+- **Manutenção:**
+  - Gestão de vulnerabilidades com escaneamentos quinzenais (Nessus)
+  - Ciclos mensais de patching automatizado
+
+> 💡 Boas práticas de proteção reduzem a superfície de ataque e fortalecem a resiliência.
+
+---
+
+### 3. 🔎 DETECTAR
+
+Objetivo: Identificar prontamente a ocorrência de eventos de segurança.
 
 **Mecanismos de Detecção:**
-* **Monitoramento Contínuo:** Implementação de um **SIEM (Security Information and Event Management)** para coletar e analisar logs de servidores, firewalls e endpoints.
-* **Detecção de Intrusões:** Uso de um **IDS/IPS (Intrusion Detection/Prevention System)** para monitorar tráfego de rede em busca de atividades maliciosas.
-* **Análise de Logs:** Rotina de análise de logs de acesso e eventos de segurança para identificar anomalias e tentativas de ataque.
 
-### Fase 4: Responder (Respond)
-Nesta fase, o foco é em como agir rapidamente após um incidente de segurança.
+- **SIEM (Splunk/Elastic):**
+  - Coleta e correlação de logs de firewall, servidores, endpoints
+  - Alertas automatizados para comportamentos anômalos
 
-<img width="800" height="1200" alt="image" src="https://github.com/user-attachments/assets/93d64f38-d096-4f76-beb6-bffc56222a98" />
+- **IDS/IPS (Snort/Suricata):**
+  - Monitoramento em tempo real de tráfego interno e externo
 
+- **Análise de Logs:**
+  - Rotina de análise diária com foco em acessos privilegiados
+  - Dashboards de indicadores de ameaça
 
-### Fase 5: Recuperar (Recover)
-Esta fase visa restaurar os serviços e operações que foram impactados por um incidente de segurança cibernética.
-
-**Ações de Recuperação:**
-* **Plano de Recuperação de Desastres (DRP):** Teste semestral do DRP para garantir que a SecurTech possa restaurar suas operações a partir de backups em caso de falha total.
-* **Comunicação:** Plano de comunicação de crise para notificar clientes, parceiros e autoridades reguladoras (conforme LGPD e GDPR).
-* **Melhoria Contínua:** Implementação das lições aprendidas de incidentes anteriores para fortalecer os controles de segurança existentes.
+> ⚠️ A detecção eficaz depende de visibilidade contínua e análise contextualizada.
 
 ---
 
-## Conclusão
-A aplicação do framework NIST CSF na SecurTech Solutions demonstra um entendimento claro e prático de como a GRC atua na proteção de ativos críticos. Este projeto não é apenas um guia, mas uma prova de que a segurança cibernética deve ser uma função estratégica e contínua, integrada a todos os aspectos de um negócio. A documentação completa serve como base para auditorias futuras e para a construção de uma cultura de segurança robusta.
+### 4. 🚨 RESPONDER
+
+Objetivo: Agir de forma coordenada para conter, erradicar e recuperar de incidentes.
+
+**Plano de Resposta a Incidentes (PRI):**
+- Equipe de resposta multidisciplinar (CSIRT)
+- Playbooks documentados para tipos comuns de incidente
+- Templates de comunicação para stakeholders internos e externos
+- Testes de tabletop semestrais para validação de prontidão
+
+> ✅ Uma resposta bem coordenada minimiza o impacto e preserva a confiança.
+
+---
+
+### 5. 🔄 RECUPERAR
+
+Objetivo: Restaurar serviços afetados e reforçar a segurança para prevenir recorrência.
+
+**Ações Implementadas:**
+- **Plano de Recuperação de Desastres (DRP):**
+  - Backup diário com retenção de 90 dias
+  - Testes semestrais de recuperação
+
+- **Comunicação em Crises:**
+  - Notificação a clientes, parceiros e reguladores (LGPD/GDPR)
+  - Canal de transparência pós-incidente
+
+- **Lições Aprendidas:**
+  - Post-mortem documentado com ações corretivas e preventivas
+  - Atualização de políticas e treinamentos com base nas falhas
+
+> ♻️ Recuperar é mais do que restaurar — é evoluir.
+
+---
+
+## 📘 Conclusão
+
+A implementação prática do NIST CSF na empresa fictícia **SecurTech Solutions** reforça a importância de integrar **GRC** como função estratégica de segurança da informação.
+
+Este projeto demonstra que:
+- A estruturação do gerenciamento de riscos cibernéticos é viável mesmo em empresas de médio porte;
+- O alinhamento entre **negócio e segurança** fortalece a maturidade organizacional;
+- A documentação contínua é vital para auditorias, conformidade e melhoria.
+
+> 🧠 **Segurança não é um destino, é um processo contínuo.**
+
+---
+
+**Autor:** [DarwinSecc](https://github.com/DarwinSecc)  
+**Data:** Agosto de 2025  
