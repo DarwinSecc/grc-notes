@@ -36,4 +36,42 @@ Nesta fase, o objetivo é desenvolver uma compreensão dos riscos de segurança 
 | Infraestrutura de Nuvem | Equipe de Infra/DevOps       | Crítico          | Invasão, DDoS, Má Configuração             |
 | Equipamentos de Funcionários | Equipe de TI               | Normal           | Phishing, Malware, Acesso Não Autorizado     |
 
-**Fluxo de Dados da SecurTech**
+
+<img width="800" height="1200" alt="image" src="https://github.com/user-attachments/assets/c9fb4831-63af-4087-bd07-8aef43b4c4ef" />
+
+
+### Fase 2: Proteger (Protect)
+Com base nos riscos identificados, esta fase foca na implementação de salvaguardas para garantir a entrega de serviços críticos de forma contínua.
+
+**Controles de Proteção e Políticas de Segurança:**
+* **Controle de Acesso:** Implementação de **Autenticação de Múltiplos Fatores (MFA)** para acesso a sistemas críticos e VPN. Uso do **Princípio do Mínimo Privilégio** para todos os funcionários.
+* **Conscientização e Treinamento:** Programa obrigatório de treinamento em segurança para todos os funcionários, com simulações de **phishing** trimestrais.
+* **Proteção de Dados:** Criptografia de dados **em trânsito** e **em repouso**. Políticas de backup e recuperação de dados.
+* **Manutenção:** Gerenciamento de vulnerabilidades com escaneamento quinzenal. Aplicação de patches em sistemas operacionais e aplicações.
+
+### Fase 3: Detectar (Detect)
+Esta fase estabelece as atividades necessárias para identificar a ocorrência de um evento de segurança cibernética.
+
+**Mecanismos de Detecção:**
+* **Monitoramento Contínuo:** Implementação de um **SIEM (Security Information and Event Management)** para coletar e analisar logs de servidores, firewalls e endpoints.
+* **Detecção de Intrusões:** Uso de um **IDS/IPS (Intrusion Detection/Prevention System)** para monitorar tráfego de rede em busca de atividades maliciosas.
+* **Análise de Logs:** Rotina de análise de logs de acesso e eventos de segurança para identificar anomalias e tentativas de ataque.
+
+### Fase 4: Responder (Respond)
+Nesta fase, o foco é em como agir rapidamente após um incidente de segurança.
+
+<img width="800" height="1200" alt="image" src="https://github.com/user-attachments/assets/93d64f38-d096-4f76-beb6-bffc56222a98" />
+
+
+### Fase 5: Recuperar (Recover)
+Esta fase visa restaurar os serviços e operações que foram impactados por um incidente de segurança cibernética.
+
+**Ações de Recuperação:**
+* **Plano de Recuperação de Desastres (DRP):** Teste semestral do DRP para garantir que a SecurTech possa restaurar suas operações a partir de backups em caso de falha total.
+* **Comunicação:** Plano de comunicação de crise para notificar clientes, parceiros e autoridades reguladoras (conforme LGPD e GDPR).
+* **Melhoria Contínua:** Implementação das lições aprendidas de incidentes anteriores para fortalecer os controles de segurança existentes.
+
+---
+
+## Conclusão
+A aplicação do framework NIST CSF na SecurTech Solutions demonstra um entendimento claro e prático de como a GRC atua na proteção de ativos críticos. Este projeto não é apenas um guia, mas uma prova de que a segurança cibernética deve ser uma função estratégica e contínua, integrada a todos os aspectos de um negócio. A documentação completa serve como base para auditorias futuras e para a construção de uma cultura de segurança robusta.
