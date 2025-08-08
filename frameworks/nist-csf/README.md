@@ -1,292 +1,292 @@
-# \# Projeto: Implementação de um Framework de Gerenciamento de Riscos Cibernéticos
+\# Projeto: Implementação de um Framework de Gerenciamento de Riscos Cibernéticos
 
-# 
 
-# \## 📌 Visão Geral
 
-# 
+\## 📌 Visão Geral
 
-# Este projeto documenta a aplicação prática de um framework de \*\*Governança, Riscos e Conformidade (GRC)\*\* em um ambiente corporativo fictício. O objetivo é demonstrar uma abordagem estruturada e alinhada às boas práticas de mercado para identificar, avaliar e mitigar riscos cibernéticos, garantindo que a \*\*segurança da informação\*\* esteja em conformidade com os \*\*objetivos estratégicos da organização\*\*.
 
-# 
 
-# A metodologia principal adotada será o \*\*NIST Cybersecurity Framework (CSF)\*\*, amplamente reconhecido pela sua flexibilidade, clareza e eficácia.
+Este projeto documenta a aplicação prática de um framework de \*\*Governança, Riscos e Conformidade (GRC)\*\* em um ambiente corporativo fictício. O objetivo é demonstrar uma abordagem estruturada e alinhada às boas práticas de mercado para identificar, avaliar e mitigar riscos cibernéticos, garantindo que a \*\*segurança da informação\*\* esteja em conformidade com os \*\*objetivos estratégicos da organização\*\*.
 
-# 
 
-# ---
 
-# 
+A metodologia principal adotada será o \*\*NIST Cybersecurity Framework (CSF)\*\*, amplamente reconhecido pela sua flexibilidade, clareza e eficácia.
 
-# \## 🏢 Cenário da Empresa Fictícia
 
-# 
 
-# \- \*\*Nome:\*\* SecurTech Solutions  
+---
 
-# \- \*\*Setor:\*\* Tecnologia / SaaS  
 
-# \- \*\*Atividade:\*\* Plataforma de gerenciamento de projetos para PMEs  
 
-# \- \*\*Infraestrutura:\*\* Nuvem AWS com uso de Docker e Kubernetes  
+\## 🏢 Cenário da Empresa Fictícia
 
-# \- \*\*Equipe:\*\* ~50 colaboradores (Dev, Suporte, Comercial, Gestão)  
 
-# 
 
-# \### 🔐 Ativos Críticos
+\- \*\*Nome:\*\* SecurTech Solutions  
 
-# 
+\- \*\*Setor:\*\* Tecnologia / SaaS  
 
-# | Ativo                          | Proprietário              | Classificação | Riscos Associados                                       |
+\- \*\*Atividade:\*\* Plataforma de gerenciamento de projetos para PMEs  
 
-# |--------------------------------|---------------------------|---------------|---------------------------------------------------------|
+\- \*\*Infraestrutura:\*\* Nuvem AWS com uso de Docker e Kubernetes  
 
-# | Dados de Clientes              | Equipe de Segurança       | Confidencial  | Vazamento, Ransomware, Phishing, DDoS                   |
+\- \*\*Equipe:\*\* ~50 colaboradores (Dev, Suporte, Comercial, Gestão)  
 
-# | Código-fonte da Plataforma     | Equipe de Desenvolvimento | Crítico       | Furto de IP, Indisponibilidade, Modificação não autorizada |
 
-# | Infraestrutura em Nuvem        | DevOps                    | Crítico       | Acesso indevido, Misconfiguration, DDoS                 |
 
-# | Dispositivos dos Colaboradores | Equipe de TI               | Sensível      | Malware, Engenharia Social, Acesso Indevido             |
+\### 🔐 Ativos Críticos
 
-# 
 
-# ---
 
-# 
+| Ativo                          | Proprietário              | Classificação | Riscos Associados                                       |
 
-# \## 🧭 Metodologia (Baseada no NIST CSF)
+|--------------------------------|---------------------------|---------------|---------------------------------------------------------|
 
-# 
+| Dados de Clientes              | Equipe de Segurança       | Confidencial  | Vazamento, Ransomware, Phishing, DDoS                   |
 
-# O projeto é dividido nas cinco funções centrais do \*\*NIST CSF\*\*:
+| Código-fonte da Plataforma     | Equipe de Desenvolvimento | Crítico       | Furto de IP, Indisponibilidade, Modificação não autorizada |
 
-# 
+| Infraestrutura em Nuvem        | DevOps                    | Crítico       | Acesso indevido, Misconfiguration, DDoS                 |
 
-# ---
+| Dispositivos dos Colaboradores | Equipe de TI               | Sensível      | Malware, Engenharia Social, Acesso Indevido             |
 
-# 
 
-# \### 1. 🕵️‍♂️ IDENTIFICAR
 
-# 
+---
 
-# \*\*Objetivo:\*\* Desenvolver entendimento organizacional para gerenciar riscos de segurança cibernética.
 
-# 
 
-# \*\*Ações Realizadas:\*\*
+\## 🧭 Metodologia (Baseada no NIST CSF)
 
-# \- Inventário de ativos e sistemas críticos
 
-# \- Classificação de informações
 
-# \- Identificação de ameaças internas e externas
+O projeto é dividido nas cinco funções centrais do \*\*NIST CSF\*\*:
 
-# \- Avaliação de riscos e impacto nos negócios
 
-# \- Estabelecimento de perfil de risco atual e desejado
 
-# \- Mapeamento de stakeholders e responsáveis
+---
 
-# 
 
-# > 📌 \*\*Resultado:\*\* Clareza sobre o que precisa ser protegido e por quem.
 
-# 
+\### 1. 🕵️‍♂️ IDENTIFICAR
 
-# ---
 
-# 
 
-# \### 2. 🔐 PROTEGER
+\*\*Objetivo:\*\* Desenvolver entendimento organizacional para gerenciar riscos de segurança cibernética.
 
-# 
 
-# \*\*Objetivo:\*\* Desenvolver e implementar salvaguardas apropriadas para garantir entrega de serviços essenciais.
 
-# 
+\*\*Ações Realizadas:\*\*
 
-# \*\*Controles e Políticas Adotadas:\*\*
+\- Inventário de ativos e sistemas críticos
 
-# 
+\- Classificação de informações
 
-# \- \*\*Controle de Acesso:\*\*
+\- Identificação de ameaças internas e externas
 
-# &nbsp; - Autenticação Multifator (MFA)
+\- Avaliação de riscos e impacto nos negócios
 
-# &nbsp; - VPN corporativa com logs centralizados
+\- Estabelecimento de perfil de risco atual e desejado
 
-# &nbsp; - Princípio do menor privilégio
+\- Mapeamento de stakeholders e responsáveis
 
-# 
 
-# \- \*\*Conscientização e Treinamento:\*\*
 
-# &nbsp; - Treinamentos obrigatórios com simulações trimestrais de phishing
+> 📌 \*\*Resultado:\*\* Clareza sobre o que precisa ser protegido e por quem.
 
-# &nbsp; - Políticas claras de uso aceitável
 
-# 
 
-# \- \*\*Proteção de Dados:\*\*
+---
 
-# &nbsp; - Criptografia AES-256 para dados em repouso
 
-# &nbsp; - TLS 1.3 para dados em trânsito
 
-# &nbsp; - Política de backup incremental e completo
+\### 2. 🔐 PROTEGER
 
-# 
 
-# \- \*\*Manutenção:\*\*
 
-# &nbsp; - Gestão de vulnerabilidades com escaneamentos quinzenais (Nessus)
+\*\*Objetivo:\*\* Desenvolver e implementar salvaguardas apropriadas para garantir entrega de serviços essenciais.
 
-# &nbsp; - Ciclos mensais de patching automatizado
 
-# 
 
-# > 💡 \*\*Boas práticas de proteção\*\* reduzem a superfície de ataque e fortalecem a resiliência.
+\*\*Controles e Políticas Adotadas:\*\*
 
-# 
 
-# ---
 
-# 
+\- \*\*Controle de Acesso:\*\*
 
-# \### 3. 🔎 DETECTAR
+&nbsp; - Autenticação Multifator (MFA)
 
-# 
+&nbsp; - VPN corporativa com logs centralizados
 
-# \*\*Objetivo:\*\* Identificar prontamente a ocorrência de eventos de segurança.
+&nbsp; - Princípio do menor privilégio
 
-# 
 
-# \*\*Mecanismos de Detecção:\*\*
 
-# \- \*\*SIEM (Splunk/Elastic):\*\*
+\- \*\*Conscientização e Treinamento:\*\*
 
-# &nbsp; - Coleta e correlação de logs de firewall, servidores, endpoints
+&nbsp; - Treinamentos obrigatórios com simulações trimestrais de phishing
 
-# &nbsp; - Alertas automatizados para comportamentos anômalos
+&nbsp; - Políticas claras de uso aceitável
 
-# \- \*\*IDS/IPS (Snort/Suricata):\*\*
 
-# &nbsp; - Monitoramento em tempo real de tráfego interno e externo
 
-# \- \*\*Análise de Logs:\*\*
+\- \*\*Proteção de Dados:\*\*
 
-# &nbsp; - Rotina de análise diária com foco em acessos privilegiados
+&nbsp; - Criptografia AES-256 para dados em repouso
 
-# &nbsp; - Dashboards de indicadores de ameaça
+&nbsp; - TLS 1.3 para dados em trânsito
 
-# 
+&nbsp; - Política de backup incremental e completo
 
-# > ⚠️ \*\*Detecção eficaz\*\* depende de visibilidade contínua e análise contextualizada.
 
-# 
 
-# ---
+\- \*\*Manutenção:\*\*
 
-# 
+&nbsp; - Gestão de vulnerabilidades com escaneamentos quinzenais (Nessus)
 
-# \### 4. 🚨 RESPONDER
+&nbsp; - Ciclos mensais de patching automatizado
 
-# 
 
-# \*\*Objetivo:\*\* Agir de forma coordenada para conter, erradicar e recuperar de incidentes.
 
-# 
+> 💡 \*\*Boas práticas de proteção\*\* reduzem a superfície de ataque e fortalecem a resiliência.
 
-# \*\*Plano de Resposta a Incidentes (PRI):\*\*
 
-# \- Equipe de resposta multidisciplinar (CSIRT)
 
-# \- Playbooks documentados para tipos comuns de incidente
+---
 
-# \- Templates de comunicação para stakeholders internos e externos
 
-# \- Testes de tabletop semestrais para validação de prontidão
 
-# 
+\### 3. 🔎 DETECTAR
 
-# > ✅ Uma \*\*resposta bem coordenada\*\* minimiza o impacto e preserva a confiança.
 
-# 
 
-# ---
+\*\*Objetivo:\*\* Identificar prontamente a ocorrência de eventos de segurança.
 
-# 
 
-# \### 5. 🔄 RECUPERAR
 
-# 
+\*\*Mecanismos de Detecção:\*\*
 
-# \*\*Objetivo:\*\* Restaurar serviços afetados e reforçar a segurança para prevenir recorrência.
+\- \*\*SIEM (Splunk/Elastic):\*\*
 
-# 
+&nbsp; - Coleta e correlação de logs de firewall, servidores, endpoints
 
-# \*\*Ações Implementadas:\*\*
+&nbsp; - Alertas automatizados para comportamentos anômalos
 
-# \- \*\*Plano de Recuperação de Desastres (DRP):\*\*
+\- \*\*IDS/IPS (Snort/Suricata):\*\*
 
-# &nbsp; - Backup diário com retenção de 90 dias
+&nbsp; - Monitoramento em tempo real de tráfego interno e externo
 
-# &nbsp; - Testes semestrais de recuperação
+\- \*\*Análise de Logs:\*\*
 
-# \- \*\*Comunicação em Crises:\*\*
+&nbsp; - Rotina de análise diária com foco em acessos privilegiados
 
-# &nbsp; - Notificação a clientes, parceiros e reguladores (LGPD/GDPR)
+&nbsp; - Dashboards de indicadores de ameaça
 
-# &nbsp; - Canal de transparência pós-incidente
 
-# \- \*\*Lições Aprendidas:\*\*
 
-# &nbsp; - Post-mortem documentado com ações corretivas e preventivas
+> ⚠️ \*\*Detecção eficaz\*\* depende de visibilidade contínua e análise contextualizada.
 
-# &nbsp; - Atualização de políticas e treinamentos com base nas falhas
 
-# 
 
-# > ♻️ Recuperar é mais do que restaurar — é \*\*evoluir\*\*.
+---
 
-# 
 
-# ---
 
-# 
+\### 4. 🚨 RESPONDER
 
-# \## 📘 Conclusão
 
-# 
 
-# A implementação prática do NIST CSF na empresa fictícia \*\*SecurTech Solutions\*\* reforça a importância de integrar \*\*GRC\*\* como função estratégica de segurança da informação.
+\*\*Objetivo:\*\* Agir de forma coordenada para conter, erradicar e recuperar de incidentes.
 
-# 
 
-# Este projeto demonstra que:
 
-# \- A estruturação do gerenciamento de riscos cibernéticos é viável mesmo em empresas de médio porte
+\*\*Plano de Resposta a Incidentes (PRI):\*\*
 
-# \- O alinhamento entre \*\*negócio e segurança\*\* fortalece a maturidade organizacional
+\- Equipe de resposta multidisciplinar (CSIRT)
 
-# \- A documentação contínua é vital para auditorias, conformidade e melhoria
+\- Playbooks documentados para tipos comuns de incidente
 
-# 
+\- Templates de comunicação para stakeholders internos e externos
 
-# > 🧠 \*\*Segurança não é um destino, é um processo contínuo.\*\*
+\- Testes de tabletop semestrais para validação de prontidão
 
-# 
 
-# ---
 
-# 
+> ✅ Uma \*\*resposta bem coordenada\*\* minimiza o impacto e preserva a confiança.
 
-# \*\*Autor:\*\* \[DarwinSecc](https://github.com/DarwinSecc)  
 
-# \*\*Data:\*\* Agosto de 2025
+
+---
+
+
+
+\### 5. 🔄 RECUPERAR
+
+
+
+\*\*Objetivo:\*\* Restaurar serviços afetados e reforçar a segurança para prevenir recorrência.
+
+
+
+\*\*Ações Implementadas:\*\*
+
+\- \*\*Plano de Recuperação de Desastres (DRP):\*\*
+
+&nbsp; - Backup diário com retenção de 90 dias
+
+&nbsp; - Testes semestrais de recuperação
+
+\- \*\*Comunicação em Crises:\*\*
+
+&nbsp; - Notificação a clientes, parceiros e reguladores (LGPD/GDPR)
+
+&nbsp; - Canal de transparência pós-incidente
+
+\- \*\*Lições Aprendidas:\*\*
+
+&nbsp; - Post-mortem documentado com ações corretivas e preventivas
+
+&nbsp; - Atualização de políticas e treinamentos com base nas falhas
+
+
+
+> ♻️ Recuperar é mais do que restaurar — é \*\*evoluir\*\*.
+
+
+
+---
+
+
+
+\## 📘 Conclusão
+
+
+
+A implementação prática do NIST CSF na empresa fictícia \*\*SecurTech Solutions\*\* reforça a importância de integrar \*\*GRC\*\* como função estratégica de segurança da informação.
+
+
+
+Este projeto demonstra que:
+
+\- A estruturação do gerenciamento de riscos cibernéticos é viável mesmo em empresas de médio porte
+
+\- O alinhamento entre \*\*negócio e segurança\*\* fortalece a maturidade organizacional
+
+\- A documentação contínua é vital para auditorias, conformidade e melhoria
+
+
+
+> 🧠 \*\*Segurança não é um destino, é um processo contínuo.\*\*
+
+
+
+---
+
+
+
+\*\*Autor:\*\* \[DarwinSecc](https://github.com/DarwinSecc)  
+
+\*\*Data:\*\* Agosto de 2025
 
 
 
