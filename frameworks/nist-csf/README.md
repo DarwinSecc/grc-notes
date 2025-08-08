@@ -38,17 +38,17 @@
 
 # 
 
-# | Ativo                         | Proprietário             | Classificação  | Riscos Associados                                       |
+# | Ativo                          | Proprietário              | Classificação | Riscos Associados                                       |
 
-# |------------------------------|--------------------------|----------------|----------------------------------------------------------|
+# |--------------------------------|---------------------------|---------------|---------------------------------------------------------|
 
-# | Dados de Clientes            | Equipe de Segurança      | Confidencial   | Vazamento, Ransomware, Phishing, DDoS                    |
+# | Dados de Clientes              | Equipe de Segurança       | Confidencial  | Vazamento, Ransomware, Phishing, DDoS                   |
 
-# | Código-fonte da Plataforma   | Equipe de Desenvolvimento| Crítico        | Furto de IP, Indisponibilidade, Modificação não autorizada |
+# | Código-fonte da Plataforma     | Equipe de Desenvolvimento | Crítico       | Furto de IP, Indisponibilidade, Modificação não autorizada |
 
-# | Infraestrutura em Nuvem      | DevOps                   | Crítico        | Acesso indevido, Misconfiguration, DDoS                  |
+# | Infraestrutura em Nuvem        | DevOps                    | Crítico       | Acesso indevido, Misconfiguration, DDoS                 |
 
-# | Dispositivos dos Colaboradores | Equipe de TI           | Sensível       | Malware, Engenharia Social, Acesso Indevido              |
+# | Dispositivos dos Colaboradores | Equipe de TI               | Sensível      | Malware, Engenharia Social, Acesso Indevido             |
 
 # 
 
@@ -64,31 +64,35 @@
 
 # 
 
+# ---
+
+# 
+
 # \### 1. 🕵️‍♂️ IDENTIFICAR
 
 # 
 
-# Objetivo: Desenvolver entendimento organizacional para gerenciar riscos de segurança cibernética.
+# \*\*Objetivo:\*\* Desenvolver entendimento organizacional para gerenciar riscos de segurança cibernética.
 
 # 
 
 # \*\*Ações Realizadas:\*\*
 
-# \- Inventário de ativos e sistemas críticos;
+# \- Inventário de ativos e sistemas críticos
 
-# \- Classificação de informações;
+# \- Classificação de informações
 
-# \- Identificação de ameaças internas e externas;
+# \- Identificação de ameaças internas e externas
 
-# \- Avaliação de riscos e impacto nos negócios;
+# \- Avaliação de riscos e impacto nos negócios
 
-# \- Estabelecimento de perfil de risco atual e desejado;
+# \- Estabelecimento de perfil de risco atual e desejado
 
-# \- Mapeamento de stakeholders e responsáveis.
+# \- Mapeamento de stakeholders e responsáveis
 
 # 
 
-# > 📌 Resultado: Clareza sobre o que precisa ser protegido e por quem.
+# > 📌 \*\*Resultado:\*\* Clareza sobre o que precisa ser protegido e por quem.
 
 # 
 
@@ -100,7 +104,7 @@
 
 # 
 
-# Objetivo: Desenvolver e implementar salvaguardas apropriadas para garantir entrega de serviços essenciais.
+# \*\*Objetivo:\*\* Desenvolver e implementar salvaguardas apropriadas para garantir entrega de serviços essenciais.
 
 # 
 
@@ -144,7 +148,7 @@
 
 # 
 
-# > 💡 Boas práticas de proteção reduzem a superfície de ataque e fortalecem a resiliência.
+# > 💡 \*\*Boas práticas de proteção\*\* reduzem a superfície de ataque e fortalecem a resiliência.
 
 # 
 
@@ -156,13 +160,11 @@
 
 # 
 
-# Objetivo: Identificar prontamente a ocorrência de eventos de segurança.
+# \*\*Objetivo:\*\* Identificar prontamente a ocorrência de eventos de segurança.
 
 # 
 
 # \*\*Mecanismos de Detecção:\*\*
-
-# 
 
 # \- \*\*SIEM (Splunk/Elastic):\*\*
 
@@ -170,13 +172,9 @@
 
 # &nbsp; - Alertas automatizados para comportamentos anômalos
 
-# 
-
 # \- \*\*IDS/IPS (Snort/Suricata):\*\*
 
 # &nbsp; - Monitoramento em tempo real de tráfego interno e externo
-
-# 
 
 # \- \*\*Análise de Logs:\*\*
 
@@ -186,7 +184,7 @@
 
 # 
 
-# > ⚠️ A detecção eficaz depende de visibilidade contínua e análise contextualizada.
+# > ⚠️ \*\*Detecção eficaz\*\* depende de visibilidade contínua e análise contextualizada.
 
 # 
 
@@ -198,7 +196,7 @@
 
 # 
 
-# Objetivo: Agir de forma coordenada para conter, erradicar e recuperar de incidentes.
+# \*\*Objetivo:\*\* Agir de forma coordenada para conter, erradicar e recuperar de incidentes.
 
 # 
 
@@ -214,7 +212,7 @@
 
 # 
 
-# > ✅ Uma resposta bem coordenada minimiza o impacto e preserva a confiança.
+# > ✅ Uma \*\*resposta bem coordenada\*\* minimiza o impacto e preserva a confiança.
 
 # 
 
@@ -226,7 +224,7 @@
 
 # 
 
-# Objetivo: Restaurar serviços afetados e reforçar a segurança para prevenir recorrência.
+# \*\*Objetivo:\*\* Restaurar serviços afetados e reforçar a segurança para prevenir recorrência.
 
 # 
 
@@ -238,15 +236,11 @@
 
 # &nbsp; - Testes semestrais de recuperação
 
-# 
-
 # \- \*\*Comunicação em Crises:\*\*
 
 # &nbsp; - Notificação a clientes, parceiros e reguladores (LGPD/GDPR)
 
 # &nbsp; - Canal de transparência pós-incidente
-
-# 
 
 # \- \*\*Lições Aprendidas:\*\*
 
@@ -256,7 +250,7 @@
 
 # 
 
-# > ♻️ Recuperar é mais do que restaurar — é evoluir.
+# > ♻️ Recuperar é mais do que restaurar — é \*\*evoluir\*\*.
 
 # 
 
@@ -274,11 +268,11 @@
 
 # Este projeto demonstra que:
 
-# \- A estruturação do gerenciamento de riscos cibernéticos é viável mesmo em empresas de médio porte;
+# \- A estruturação do gerenciamento de riscos cibernéticos é viável mesmo em empresas de médio porte
 
-# \- O alinhamento entre \*\*negócio e segurança\*\* fortalece a maturidade organizacional;
+# \- O alinhamento entre \*\*negócio e segurança\*\* fortalece a maturidade organizacional
 
-# \- A documentação contínua é vital para auditorias, conformidade e melhoria.
+# \- A documentação contínua é vital para auditorias, conformidade e melhoria
 
 # 
 
@@ -292,5 +286,7 @@
 
 # \*\*Autor:\*\* \[DarwinSecc](https://github.com/DarwinSecc)  
 
-# \*\*Data:\*\* Agosto de 2025  
+# \*\*Data:\*\* Agosto de 2025
+
+
 
