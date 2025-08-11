@@ -21,4 +21,4 @@ A implementação de GRC é essencial para garantir **conformidade regulatória*
 
 ---
 
-🔗 [⬅️ Voltar para o Cyber Security Lab](https://github.com/DarwinSecc/cyber-security-lab)
+🔗 [⬅️ Voltar para o Cybersecurity Portfolio](https://github.com/DarwinSecc/cybersecurity-portfolio)
