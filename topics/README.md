@@ -10,15 +10,6 @@ Atualmente, o conteúdo ainda está sendo desenvolvido, mas em breve serão adic
 - Ferramentas e técnicas utilizadas no mercado.
 - Estudos e laboratórios práticos.
 
-## 💡 Importância
-Mesmo ainda sem conteúdo, este repositório representa um tema **fundamental dentro da cibersegurança** e fará parte de um conjunto de materiais que abrangem:
-- Segurança ofensiva (Red Team)
-- Segurança defensiva (Blue Team)
-- Governança, Riscos e Conformidade (GRC)
-- Análise de malware
-- Automação e scripts de segurança
-- Desafios e treinamentos práticos
-
 > **Palavras-chave:** cibersegurança, segurança da informação, laboratório, portfólio, defesa cibernética, ofensiva, automação, GRC, análise de malware.
 
 ---
