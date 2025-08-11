@@ -1,54 +1,24 @@
-# 🛡️ GRC Notes – Governança, Riscos e Conformidade
+# 📚 GRC Notes – Governança, Risco e Conformidade
 
-## 📌 Visão Geral
+Este repositório contém **anotações, estudos e guias práticos** sobre **Governança, Riscos e Conformidade (GRC)** no contexto da cibersegurança corporativa.
 
-Este repositório reúne meus estudos, anotações e referências sobre **GRC (Governança, Riscos e Conformidade)** aplicados à **Cibersegurança**. O objetivo é construir um material de consulta técnica e estratégica, que una teoria e prática sobre conformidade, gestão de riscos e estrutura de governança em ambientes de segurança da informação.
+## 🔍 Importância
+A implementação de GRC é essencial para garantir **conformidade regulatória**, **gestão eficiente de riscos** e **proteção estratégica dos ativos de informação**. Profissionais com domínio em GRC são valorizados no mercado, especialmente em empresas que seguem normas como **ISO/IEC 27001**, **NIST** e **LGPD**.
 
----
+## 🎯 Por que estudar GRC
+- Atende requisitos de **auditorias internas e externas**.  
+- Melhora a **postura de segurança organizacional**.  
+- Facilita a **tomada de decisões baseada em riscos**.  
 
-## 🎯 Por que estudar GRC?
+## 📌 Conteúdo Abordado
+- Fundamentos e princípios de GRC.
+- Políticas e procedimentos de segurança.
+- Conformidade com normas e legislações.
+- Estruturação de frameworks de segurança.
+- Ferramentas de apoio à governança e gestão de riscos.
 
-- 🔒 Eleva a maturidade em segurança da informação nas organizações.
-- 🎯 Alinha os objetivos de segurança com os objetivos de negócio.
-- 🛡️ Fortalece a reputação institucional e reduz riscos legais.
-- 💼 Essencial para atuação como **analista de risco**, **consultor**, **auditor** ou **profissional de GRC**.
-
----
-
-## 📚 Temas abordados
-
-Este repositório será constantemente atualizado com conteúdos relacionados aos seguintes temas:
-
-- ✅ **Normas e Frameworks**:
-  - ISO/IEC 27001, ISO/IEC 27005
-  - NIST Cybersecurity Framework
-- 🔐 **Legislação e Regulamentos**:
-  - LGPD, GDPR e outras leis correlatas
-- 🧠 **Gestão de Riscos Cibernéticos**
-- 📋 **Auditorias Internas e Externas**
-- 📝 **Conformidade e Políticas de Segurança**
-- ⚙️ **Ferramentas GRC**:
-  - RSA Archer, OneTrust, entre outras
+> **Palavras-chave:** ISO 27001, NIST, LGPD, auditoria, gestão de riscos, segurança corporativa, conformidade, compliance.
 
 ---
 
-## 🚀 Benefícios da Documentação
-
-- 🧠 Consolidar conhecimento técnico e teórico para certificações como **CRISC**, **CISA** e similares.
-- 📖 Facilitar revisões rápidas antes de auditorias e avaliações de risco.
-- 🛠️ Servir como referência prática para aplicação em **projetos reais** na área de GRC e cibersegurança.
-
----
-
-## 📌 Status do Projeto
-
-> **Em construção**: O conteúdo será incrementado continuamente, conforme avanço dos estudos e desenvolvimento de projetos práticos na área de GRC e Segurança da Informação.
-
----
-
-## 💬 Contribuições
-
-Este repositório é pessoal, mas sugestões são sempre bem-vindas. Caso queira colaborar com ideias ou correções, sinta-se à vontade para abrir uma *issue* ou enviar um *pull request*.
-
----
-
+🔗 [⬅️ Voltar para o Cyber Security Lab](https://github.com/DarwinSecc/cyber-security-lab)
